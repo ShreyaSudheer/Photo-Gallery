@@ -1,0 +1,160 @@
+<html>
+
+<head>
+    <title>Flowers Gallery</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    
+
+            <nav class="navbar-inverse" style="position:sticky;top:0;z-index:999999">
+        <nav class="navbar-inverse" style="position:sticky;top:0;z-index:999999">
+
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Hello!!</a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#grid">Grid Veiw</a></li>
+                    <li><a href="#slide">Slide Veiw</a></li>
+                   
+                </ul>
+            </div>
+
+                </nav>
+    </nav>
+
+    <div class="container">
+        <section data-target="#home">
+            <div class="page-header">
+                <h1>Hey! Welcome To Flowers Gallery</h1>
+               
+            </div>
+        </section>
+
+        <hr style="width: 100%;">
+        <section data-target="#grid">
+            <h2> Grid gallery</h2>
+            <br>
+            <script src="style.css"></script>
+            <div class="row">
+                <img class="img2" src="Blue-Flower.jpg" height="150">
+                <img class="img2" src="Orange-Flower.jpg" height="150">
+                <img class="img2" src="Pink-Flower.jpg" height="150">
+                <img class="img2" src="Purple-Flower.jpg" height="150">
+                <br><br>
+            </div>
+            <div class="row">
+                <img class="img2" src="Rose-Flower.jpg">
+                <img class="img2" src="Sunflower-flower.jpg">
+                <img class="img2" src="White-Flower.jpg">
+                <img class="img2" src="Green-Flower.jpg">
+            </div>       </section>
+
+        <br>
+        <br>
+        <hr style="width: 100%;">
+
+
+
+        <section data-target="#slide">
+            <h2>Sliding gallery</h2>
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+
+                <div class="carousel-inner">
+
+                    <div class="item">
+                        <img class="img-responsive" src="Blue-Flower.jpg" alt="Blue" style="width:100%;">
+                        <div class="carousel-caption">
+                            <h3>Blue Flower</h3>
+                            <p></p>
+                        </div>
+                    </div>
+
+                    <div class="item active">
+                        <img class="img-responsive" src="Orange-Flower.jpg" alt="Orange" style="width:100%;">
+                        <div class="carousel-caption">
+                            <h3>Orange Flower</h3>
+                            <p></p>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <img class="img-responsive" src="Pink-Flower.jpg" alt="Pink" style="width:100%;">
+                        <div class="carousel-caption">
+                            <h3>Pink Flower</h3>
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img class="img-responsive" src="Purple-Flower.jpg" alt="Purple" style="width:100%;">
+                        <div class="carousel-caption">
+                            <h3>Purple Flower</h3>
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img class="img-responsive" src="Rose-Flower.jpg" alt="Red" style="width:100%;">
+                        <div class="carousel-caption">
+                            <h3>Red Rose</h3>
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img class="img-responsive" src="Sunflower-flower.jpg" alt="Violet" style="width:100%;">
+                        <div class="carousel-caption">
+                            <h3>SunFlower</h3>
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img class="img-responsive" src="White-Flower.jpg" alt="White" style="width:100%;">
+                        <div class="carousel-caption">
+                            <h3>White Flower</h3>
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img class="img-responsive" src="Green-Flower.jpg"alt="Yellow" style="width:100%;">
+                        <div class="carousel-caption">
+                            <h3>Green Flower</h3>
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </section>
+    </div>
+
+
+
+</body></html>
